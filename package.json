@@ -1,0 +1,20 @@
+{
+  "name": "elan",
+  "version": "1.0.0",
+  "description": "Ini adalah tugas API Automation using supertest, mocha, and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --"
+  },
+  "keywords": [
+    "API",
+    "automation"
+  ],
+  "author": "Elan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}

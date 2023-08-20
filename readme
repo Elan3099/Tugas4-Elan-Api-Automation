@@ -1,0 +1,35 @@
+Tugas 4 - API AUTOMATION
+
+Framework yang digunakan :
+supertest, mocha and chai 
+
+Terdapat 2 Repository yaitu data dan test. Repository data terdapat 2 file js yaitu (config.json dan user.json) 
+dan repository test terdapat (2 subfolder yaitu spec dan suite), detailnya sebagai berikut :
+1. Repositoru data untuk menyimpan script js yang berisi data inputan atau berupa data universal 
+2. Repository test dengan sub folder spec berisi script yang mewakili fungsi setiap feature yang di test.
+3. Repository test dengan sub folder suite berisi script yang tersusun sesuai dengan flow testm terdiri atas 2 case
+yaitu positive dan negative.
+
+Yang harus diperhatikan sebelum runing :
+1. Pastikan sudah menginstal node.js
+2. install terlebih dahulu supertest, mocha and chai
+
+Cara run :
+Buka terminal dan panggil dengan menggunakan command npx mocha diikuti relative path dari script yang berada di 
+repository test/suite
+contoh : npm mocha test\suite\category.suite.positiveCase.js
+
+Screenshoot hasil dari test yang di lakukan :
+1. Positive test case 
+image.png
+
+
+2. Negative test case 
+
+
+API yang di lakukan pengujian
+
+GET /categories/${CategoryId}
+PUT /categories/${CategoryId}
+POST /categories
+DELETE /categories/${CategoryId}
