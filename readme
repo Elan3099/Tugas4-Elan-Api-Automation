@@ -21,8 +21,7 @@ contoh : npm mocha test\suite\category.suite.positiveCase.js
 
 Screenshoot hasil dari test yang di lakukan :
 1. Positive test case 
-image.png
-
+Screenshot 2023-08-20 235525.png
 
 2. Negative test case 
 
